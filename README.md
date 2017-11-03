@@ -29,3 +29,6 @@ elif ans =='Y':
     person = input("Enter your name")
 
     print('hi', person, 'it is a good name and how many years you live in this chaotic world')
+    age = eval (input("Enter your age"))
+    if age < 20:
+        print('hi',)
