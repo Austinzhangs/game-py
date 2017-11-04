@@ -16,19 +16,23 @@ if ans == 'N':
         print ('you turn around walk to the pub suddenly you hear the soldiers behind you they are screeching')
         print ('you dont want to make trouble so you walk more fast')
         print ('but it is too late there is a claw in your chest and it is even stirring')
-        print ('you turn around your head the last things you can see is the a bloody face and your can sure that is not belong to human')
+        print ('you turn around your head the last things you can see is the a bloody face and your can sure that is not belong to human')
     elif cs == 'I':
-        print('"damned paro you have to pay for this"')
+        print('"damned paro you have to pay for this!!"')
         print('than you dead (is it too hasty? of course because i am lasy!!! can you just push Y you nasty!!!')
 
 
 elif ans =='Y':
     print('you push the door you can hear the old wooden door creaked')
+    print('the warm air come to you ,there is a burning fire in the middle of the hall')
+    print('the bard is playing the organist and people are singing a strange ballad around the fire')
     print('There is a old man walke to you,he dress in ornate but old clothes the beard nearly covered his half face')
     print('"Wellcome to my pub adventurer!! you must be tired but before you take rest can you tell me your name?"')
     person = input("Enter your name")
 
     print('hi', person, 'it is a good name and how many years you live in this chaotic world')
     age = eval (input("Enter your age"))
-    if age < 20:
-        print('hi',)
+    if age < 30:
+        print('"oh what a young man! Gentlemen lets toast for thisbrave young man!"')
+    else:
+        print('"really? you looks not that old whatever Gentlemen lets toast for thisbrave man"')
