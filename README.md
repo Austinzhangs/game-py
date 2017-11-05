@@ -72,7 +72,7 @@ elif ans =='Y':
                 if c== 'L':
                     print ('You get out of the pub you can can see the old man and his man are fighting with monster ')
                     print ('You can not join them because your are too weak so you walk left')
-                    print ('you walk for two min but you can not find anything to treat and you hear the howls of old man')
+                    print ('you walk to another street  but you can not find anything to treat and you hear the howls of old man')
                     print ('"For the Firewood and emperor!!!!!"')
                     print ('Then there is only the noise of thr monster and the whining of the people')
                     print ('There are two monster in front of you')
@@ -102,5 +102,65 @@ elif ans =='Y':
                         print ('....')
                         print ('.')
                         print ('Some thing is ..........wron..g')
-                        print ('YOU DEAD OF THE TOXICANT')
+                        print ('YOU DEAD OF THE RAT POISON')
 
+                    elif x == 'N':
+                        print ('You did not take that medicine now you are bloodying you think you are going to dead')
+                        j = input ('Do you want to keep search or go to another place? (k or G)')
+                        if j == 'G':
+                            print ('You go out and try to find another place')
+                            print (' you hear the howls of old man')
+                            print('"For the Firewood and emperor!!!!!"')
+                            print('Then there is only the noise of thr monster and the whining of the people')
+                            print ('And you feel sleepy than everything is become dark')
+                            print ('YOU DEAD')
+                        elif j == 'K':
+                            print ('You keep searching finally you find the drug')
+                            print ('Drug +1')
+                            f = input ('Do you want to use it now?(Y or N)')
+                            if f == 'N':
+                                print ('You still dont want to use it')
+                                d = input ('Do you want to keep searching or go out (K or G)')
+                                if d == 'K':
+                                    print ('You keep search the house and you see there are a lot of medicine and money on another table')
+                                    sd = input ('Do you want to take them?(Y or N)')
+                                    if sd == 'Y':
+                                        print ('You walk to the table')
+                                        print('And you feel sleepy than everything is become dark')
+                                        print('YOU DEAD')
+                                    else:
+                                        print('suddenly you feel sleepy than everything is become dark')
+                                        print('YOU DEAD')
+                                elif d == 'G':
+                                    print('You go out and try to find another place')
+                                    print('You see the is only old man fight by himself his man all dead')
+                                    print('"For the Firewood and emperor!!!!!"')
+                                    print('Then there is only the noise of thr monster and the whining of the people')
+                                    print('And you feel sleepy than everything is become dark')
+                                    print('YOU DEAD')
+
+                            if f == 'Y':
+                                print('You use the drug')
+                                print('You feel batter and full of energy')
+                                print('You hear the old man are asking for help')
+                                cv = input('Do you go out to help the old man (Y or N)')
+                                if cv == 'Y':
+                                    print ('You rush out and join the battle')
+                                    print ('You cna see almost all man of old are dead ')
+                                    print ('You find out that until now you didnt see any soldiers where are they?')
+                                    print ('But you dont have the time to think about this ')
+                                    print ('"Finally!! My friend you come to help me!!!!')
+                                    print ('There are more and more monster come to you')
+                                    print ('"Shit!! they are too many!!! we need to leave this town!!!')
+                                    sc = input ('Do you want to leave with the old man?(Y or N)')
+                                    if sc == ('N'):
+                                        print ('You didnt leave you fight with those monster until you dead')
+
+                                    elif sc == ('Y'):
+                                        print ('"Lets go my friend!!')
+                                        print ('You run to the gate of the town')
+                                        print ('There are a lot of soldiers they are in the square')
+                                        print ('And the are many corpse in front of them')
+                                        print ("Their eyes are full of killing")
+                                        print ('You find something is wrong.....................')
+                                        print ('THE END IF WANT TO KNOW WHAT HAPPEN NEXT PLEASE WAIT FOR 2')
