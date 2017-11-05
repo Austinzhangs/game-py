@@ -3,7 +3,15 @@ print ("you are walking in a medieval town which is nestled in the lush folds of
 print ("it is not too far away from the frontline but you still can hear troubadour is singing the song from age of legends")
 print ("you see a team of soldiers running through your face they looks very serious")
 print ("at the same time another team of soldiers are driving people in to the indoor ")
-print("you see a pub is infront of you ")
+print ('There is a poor child come to you')
+print ('"Sir can you give me some coin? "')
+f=input ('Do you want give this poor child money?(Y or N)')
+if f == 'Y':
+    print ('"Thanks you! sir now i can buy the medicine for my sister!"')
+    print ('The boy run to the house on the right of pub that must be the pharmacy')
+else:
+    print ('"Sorry sir i just want to buy the medicine for my sister"')
+print("Than you  walk to the pub which is infront of you ")
 ans = input("DO you want to enter?(Y or N)")
 
 if ans == 'N':
@@ -16,15 +24,14 @@ if ans == 'N':
         print ('you turn around walk to the pub suddenly you hear the soldiers behind you they are screeching')
         print ('you dont want to make trouble so you walk more fast')
         print ('but it is too late there is a claw in your chest and it is even stirring')
-        print ('you turn around your head the last things you can see is the a bloody face and your can sure that is not belong to human')
+        print ('you turn around your head the last things you can see is the a bloody face and your can sure that is not belong to human')
     elif cs == 'I':
-        print('"damned paro you have to pay for this!!"')
+        print('"damned paro you have to pay for this!!"')
         print('than you dead (is it too hasty? of course because i am lasy!!! can you just push Y you nasty!!!')
-
 
 elif ans =='Y':
     print('you push the door you can hear the old wooden door creaked')
-    print('the warm air come to you ,there is a burning fire in the middle of the hall')
+    print('the warm air come to your face ,there is a burning fire in the middle of the hall')
     print('the bard is playing the organist and people are singing a strange ballad around the fire')
     print('There is a old man walke to you,he dress in ornate but old clothes the beard nearly covered his half face')
     print('"Wellcome to my pub adventurer!! you must be tired but before you take rest can you tell me your name?"')
@@ -33,6 +40,67 @@ elif ans =='Y':
     print('hi', person, 'it is a good name and how many years you live in this chaotic world')
     age = eval (input("Enter your age"))
     if age < 30:
-        print('"oh what a young man! Gentlemen lets toast for thisbrave young man!"')
+        print('"oh what a young man! Gentlemen lets toast for thisbrave young man and emperor!"')
     else:
-        print('"really? you looks not that old whatever Gentlemen lets toast for thisbrave man"')
+        print('"really? you looks not that old whatever Gentlemen lets toast for this  brave man and emperor!"')
+    print('old man drink all the beer form the glass and some of the beer foam touched his beard')
+    print('than he laughed so loud that the whole pub seem to shake ')
+    bs=input('"My friend you must from a distance do you want listen the story of this beatuiful place?"(Y or N)')
+    if bs=='Y':
+        print('"finally a person would like to listen to a old guy tell a story"')
+        print('"the name of this town is Firewood my family has settled down here since the great forntier" ')
+        print('"one of my ancestor his name is Mad Fred he led his family and his man to build this town"')
+        print('"that was a dark age at that time dragon was still raging in this world"')
+        print('"not like the dragon in the far east which help people to survive and work our dragon would only kill and keep its treasure" ')
+        print('"one of my ancestor son dead in the battle with the ghoul,my ancestor he took his hunge ax kill a whole tribe of ghoul"')
+        print('"after that time he get the name Mad Fred but he was so sad of his son dead after one month his died od grief" ')
+        print('when the old man want to keep telling his story the door of the pub break open there is a riot outside ')
+        print('"what the hell happend! my friend can you fight take the axe off the shelf to protect yourself!"')
+        xs = input("Do you want to take the axe? (Y or N)")
+        if xs== 'Y':
+            print ("You pick up the axe it is a little heavy it looks like it is made of fine iron ")
+            print ('There are two humanoid creature come you dont know what is that but you can sure that is not human')
+            k=input ('Do you want fight with them ?(Y or N)')
+            if k == 'N':
+                print ('You try to hide at first they can not find you but more and more monster come ')
+                print ('You kill some of them but you still dead because they are too many')
+
+            elif k == 'Y':
+                print ('You fight with them they looks nasty you see them wear the cloth of citizen and one of them is the kid ask you for money before')
+                print ('You get hurt you must find some medicine so you walk out of the pun')
+                c = input ('Do you want walk left or right(R or L)')
+                if c== 'L':
+                    print ('You get out of the pub you can can see the old man and his man are fighting with monster ')
+                    print ('You can not join them because your are too weak so you walk left')
+                    print ('you walk for two min but you can not find anything to treat and you hear the howls of old man')
+                    print ('"For the Firewood and emperor!!!!!"')
+                    print ('Then there is only the noise of thr monster and the whining of the people')
+                    print ('There are two monster in front of you')
+                    p = input ('DO you want to fight with them?(Y or N)')
+                    if p == 'Y':
+                        print ('You rush up want to kill them as soon sa possible but more of monster come out')
+                        print('YOU DEAD')
+
+                    elif p == 'N':
+                        print ('You try to not touch with them but it is too late more of monster come out you try to fight')
+                        print ('YOU DEAD')
+                elif c == 'R':
+                    print ('You get out of the pub you can can see the old man and his man are fighting with monster ')
+                    print ('You need to get the medicine as soon as possible so you run to the house on the right of the pub')
+                    print ('You get into the house luckily it is a pharmacy')
+                    print ('No one is here you find the medicine on the table but you dont know what kind of medicine it is')
+                    x = input('Do you want to use this medicine? (Y or N) ')
+                    if x == 'Y':
+                        print ('You ise the medicine form the table')
+                        print ('........................................................')
+                        print ('...........................................')
+                        print ('....................................')
+                        print ('...............................')
+                        print ('.......................')
+                        print ('...............')
+                        print ('........')
+                        print ('....')
+                        print ('.')
+                        print ('Some thing is ..........wron..g')
+                        print ('YOU DEAD OF THE TOXICANT')
+
