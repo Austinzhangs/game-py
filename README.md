@@ -1,22 +1,37 @@
-print("You are walking in a medieval town which is nestled in the lush folds of the mountain ")
-print("It is not too far away from the frontline but you still can hear troubadour is singing the song from age of legends")
-print("You see a team of soldiers running through your face they looks very serious")
-print("At the same time another team of soldiers are driving people in to the indoor ")
-print('There is a poor child come to you')
-print('"Sir can you give me some coin? "')
+print("Hi welcome to my game  hope you will enjoy it")
+print("Here is the suggestion")
+print("Please play this game with some music of middle age that can make you more get involve in this game")
+print("like <God Rest ye Merry Gentleman>  <Tempus Est locundum> <Away>")
 
-f = input('Do you want give this poor child money?(Y or N)')
-if f == 'Y':
-    print('"Thanks you! sir now i can buy the medicine for my sister!"')
-    print('The boy run to the house on the right of pub that must be the pharmacy')
-    game = 1
+while True:
+    f=input ("Are you ready to play (．m．)? (Y or N)")
+    if f == 'Y':
+     print("You are walking in a medieval town which is nestled in the lush folds of the mountain ")
+     print("It is not too far away from the frontline but you still can hear troubadour is singing the song from age of legends")
+     print("You see a team of soldiers running through your face they looks very serious")
+     print("At the same time another team of soldiers are driving people in to the indoor ")
+     print('There is a poor child come to you')
+     print('"Sir can you give me some coin? "')
 
-else:
-    print('"Sorry sir i just want to buy the medicine for my sister"')
-    game = 1
+    else:
+        continue
+
+while True:
+    f = input('Do you want give this poor child money?(Y or N)')
+    if f == 'Y':
+        print('"Thanks you! sir now i can buy the medicine for my sister!"')
+        print('The boy run to the house on the right of pub that must be the pharmacy')
+        break
+
+    elif f == 'N':
+        print('"Sorry sir i just want to buy the medicine for my sister"')
+        break
+    else:
+        print("Invalid")
+        continue
 
 
-while game == 1:
+while True:
     print("Than you  walk to the pub which is in front of you ")
     ans = input("DO you want to enter?(Y or N)")
 
@@ -34,7 +49,7 @@ while game == 1:
                 print('You turn around your head the last things you can see is the a bloody face and your can sure that is not belong to human')
             elif cs == 'I':
                 print('"Shit you have to pay for this!!"')
-                print('Than you dead (is it too hasty? of course because i am lazy!!! can you just push Y !!!')
+                print('Than you dead ')
             else:
                 print('"Shit are you kidding me do you thin i am a fool ?!!"')
                 print('Than you dead (is it too hasty? of course because i am lazy!!! can you just push Y !!!')
@@ -175,5 +190,3 @@ while game == 1:
                                                 print("Their eyes are full of killing")
                                                 print('You find something is wrong...')
                                                 print('"My ')
-    else:
-        print ('d')
